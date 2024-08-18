@@ -7,7 +7,7 @@ The repository is structured as follows:
 #### Jupyter Notebooks
 * **Cleaning_EDA**: Includes the main part of data pre-processing as well of the Exploratory data analysis. It was also used to merge the 4 datasets that were given for this work, and created an output dataset ('combined_themepark_dataset.csv') that was then used in the hypotheses testing files 'Testing_H1'-4.
 * **Testing_H1,...,H4**: In these notebooks, the level 1 hypotheses were tested. The four files are split up into the different themes of our hypotheses (sentiment, time, emoji, post type).
-* **Multi-level_Analysis**: This file includes the multilevel model that has been used to test our level 2 hypotheses. The pymer4 library was utilized here.
+* **Multi-level_Analysis**: This file includes the multilevel model that has been used to test our level 2 hypotheses (mainly H5a-e). The pymer4 library by E. Jolly was utilized here.
 
 #### Datasets (folders, CSV-files)
 * **01_original theme park dataset**: This folder includes the 4 datasets that were given at the beginning of this course.
